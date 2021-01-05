@@ -11,10 +11,11 @@ An example of a json would be:
     },
     "workshop name": "intro to API"
 }
-Common commands include:
-- json.load or json.loads: (turns either a file or a string of json into a Python dictionary object)
-- json.dump or json.dumps: (turns either a file or a Python dictionary to a json)
 Documentation here: https://docs.python.org/3/library/json.html 
+
+A Python dictionary is a data structure, or a way of storing data, that is similar to a JSON
+It is an unordered collection used to store data in key:value pairs
+Documentation here: https://www.w3schools.com/python/python_dictionaries.asp
 """
 import requests, json
 
@@ -31,11 +32,11 @@ You can use the key to access the value of each piece of data in the JSON.
 For example, example_response["workshop"] will equate to "intro to api"
 """
 
-#TODO: 1. Return the title of every film in the API
+#TODO: 1. Return the title of every film in the API as a string or a list
 def every_film():
     pass
 
-#TODO: 2. Create a method to allow a user to search a category by field
+#TODO: 2. Create a method to allow a user to search a category by field, and return the json response of the research
 def search_by_name(category, field):
     pass
 
@@ -47,6 +48,6 @@ def character_and_their_films_paragraph(name):
 def pretty_print(response_json: json):
     print(response_json)
 
-print_every_film()
+print(every_film())
 pretty_print(search_by_name("planets", "Tatooine"))
 print(character_and_their_films_paragraph("Luke Skywalker"))
