@@ -36,18 +36,17 @@ For example, example_response["workshop"] will equate to "intro to api"
 def every_film():
     pass
 
-#TODO: 2. Create a method to allow a user to search a category by field, and return the json response of the research
-def search_by_name(category, field):
+#TODO: 2. Create a method to allow a user to search a category by field, and return the json response of the search
+def search_by_category(category: str, field: str):
     pass
 
 #TODO: 3. Given a character's name, return the planet that the character comes from, as well as the titles of the films the character appeared in
-def character_and_their_films_paragraph(name):
+def character_and_their_films_paragraph(name: str):
     pass
 
-#TODO(optional to implement): 4. Print json in an organized way
 def pretty_print(response_json: json):
-    print(response_json)
+    print(json.dumps(response_json, indent=4, sort_keys=True))
 
-print(every_film())
-pretty_print(search_by_name("planets", "Tatooine"))
-print(character_and_their_films_paragraph("Luke Skywalker"))
+# print(every_film())
+# pretty_print(search_by_category("planets", "Tatooine"))
+# print(character_and_their_films_paragraph("Luke Skywalker"))
