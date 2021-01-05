@@ -1,6 +1,11 @@
 # Intro to API at Hack the North
 
-### Before beginning this workshop, please ensure that you have installed Python3 and an IDE that supports Python development, such as Visual Studio Code and PyCharm. 
+### Before beginning this workshop, please ensure that you have installed Python3 and an IDE that supports Python development, such as Visual Studio Code or PyCharm. 
+
+You can check whether you have Python3 installed by starting a terminal session and typing
+```
+python3 -v
+```
 
 * [Python3](https://realpython.com/installing-python/)
 
@@ -20,4 +25,12 @@
 ```
 pip install -r requirements.txt
 ```
-3. Open up https://swapi.dev/ and start working through part 1 of the workshop!
+3. Open up https://swapi.dev/ and start working through part 1 of the workshop! You can run playground.py by typing in the terminal session 
+```
+python3 playground.py
+```
+4. For part 2 of the workshop, you will be interfacing with api.py and the templates folder to build out a simple web app with a server-side api. To start the Flask server and launch the app in your browser, type in the terminal 
+```
+python3 api.py
+```
+5. You can use the files in the completed folder to work through challenging parts of the workshop and check over your work. 
