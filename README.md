@@ -25,7 +25,7 @@ python3 -v
 ```
 pip install -r requirements.txt
 ```
-3. Open up https://swapi.dev/ and start working through part 1 of the workshop! You will work on playground.py and can run it by typing in the terminal session 
+3. Open up http://swapi.py4e.com/ and start working through part 1 of the workshop! You will work on playground.py and can run it by typing in the terminal session 
 ```
 python3 playground.py
 ```
