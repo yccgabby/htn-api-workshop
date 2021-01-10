@@ -1,6 +1,6 @@
 import requests, json
 
-base_url = 'https://swapi.dev/api/'
+base_url = 'https://swapi.py4e.com/api/'
 
 """
 The response object a client receives after making a HTTP request can be parsed in a number of ways 
@@ -14,12 +14,12 @@ example_response = requests.get(base_url)
 This is the JSON response when you make a GET request to the base_url 
 It displays every sub-route to different categories of data in the Star Wars API
 {
-    "films": "http://swapi.dev/api/films/",
-    "people": "http://swapi.dev/api/people/",
-    "planets": "http://swapi.dev/api/planets/",
-    "species": "http://swapi.dev/api/species/",
-    "starships": "http://swapi.dev/api/starships/",
-    "vehicles": "http://swapi.dev/api/vehicles/"
+    "films": "https://swapi.py4e.com/api/films/",
+    "people": "https://swapi.py4e.com/api/people/",
+    "planets": "https://swapi.py4e.com/api/planets/",
+    "species": "https://swapi.py4e.com/api/species/",
+    "starships": "https://swapi.py4e.com/api/starships/",
+    "vehicles": "https://swapi.py4e.com/api/vehicles/"
 }
 """
 

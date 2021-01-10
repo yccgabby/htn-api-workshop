@@ -8,7 +8,7 @@ def landing_page():
 
 @app.route("/all_films")
 def all_films():
-    all_films = requests.get("https://swapi.dev/api/films").json()
+    all_films = requests.get("https://swapi.py4e.com/api/films").json()
     return render_template('films.html', films = [film["title"] for film in all_films["results"]])
 
 if __name__ == '__main__':
