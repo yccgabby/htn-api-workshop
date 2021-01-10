@@ -19,7 +19,7 @@ Documentation here: https://www.w3schools.com/python/python_dictionaries.asp
 """
 import requests, json
 
-base_url = "" # Look for the base url in https://swapi.dev/documentation 
+base_url = "" # Look for the base url in http://swapi.py4e.com/documentation 
 example_response = requests.get(base_url).json() # This will execute a GET request and convert the response to json that we can manipulate with
 
 """
