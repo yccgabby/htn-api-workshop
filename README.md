@@ -1,6 +1,7 @@
 # Intro to API at Hack the North
 
 Workshop recording [here](https://www.youtube.com/watch?v=Fpc7Lp5oEkU&feature=youtu.be&ab_channel=HacktheNorth)
+
 Workshop resources, such as powerpoint slides and additional links, [here](https://drive.google.com/drive/folders/1wET21sxRq5IKgV6X_ln8H2rmP81aZqXk?usp=sharing)
 
 ### Before beginning this workshop, please ensure that you have installed Python3 and an IDE that supports Python development, such as Visual Studio Code or PyCharm. 
